@@ -1,0 +1,405 @@
+var data = [
+ {
+   "english": "singer",
+   "korean": "가수",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "apple",
+   "korean": "사과",
+   "boolean": false,
+   "saved": false
+   
+ },
+ {
+   "english": "butterfly",
+   "korean": "나비",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "mother",
+   "korean": "어머니",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "desk/table",
+   "korean": "책상",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "pencil",
+   "korean": "연필",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "student",
+   "korean": "학생",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "chair",
+   "korean": "의자",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "hometown",
+   "korean": "고향",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "only child",
+   "korean": "외동 아들",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "clothes",
+   "korean": "옷",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "hat",
+   "korean": "모자",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "car",
+   "korean": "자동차",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "bicycle",
+   "korean": "자전거",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "office",
+   "korean": "사무실",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "how much?",
+   "korean": "얼마",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "newspaper",
+   "korean": "신문",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "phone number",
+   "korean": "전화반호",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "in front",
+   "korean": "앞",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "behind",
+   "korean": "뒤",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "on top",
+   "korean": "위",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "under",
+   "korean": "아래/밑",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "next to",
+   "korean": "옆",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "right",
+   "korean": "오른쪽",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "left",
+   "korean": "왼쪽",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "middle",
+   "korean": "가운대",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "between",
+   "korean": "사이",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "inside",
+   "korean": "안",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "outside",
+   "korean": "밖",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "shoes",
+   "korean": "신발/구두",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "AM",
+   "korean": "오전",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "PM",
+   "korean": "오후",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "dawn",
+   "korean": "새벽",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "morning",
+   "korean": "아침",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "afternoon",
+   "korean": "점심",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "evening",
+   "korean": "저녁",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "night",
+   "korean": "밤",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "~hours",
+   "korean": "~시",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "~minutes",
+   "korean": "~분",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "year",
+   "korean": "년",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "month",
+   "korean": "월",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "date",
+   "korean": "일",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "day",
+   "korean": "요일",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "1",
+   "korean": "하나/한 || 일",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "2",
+   "korean": "둘/두 || 이",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "3",
+   "korean": "셋/세 || 삼",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "4",
+   "korean": "넷/네 || 사",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "5",
+   "korean": "다삿 || 오",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "6",
+   "korean": "여섯 || 육",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "7",
+   "korean": "일곱 || 칠",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "8",
+   "korean": "여덟 || 팔",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "9",
+   "korean": "아홉 || 구",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "10",
+   "korean": "열 || 십",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "20",
+   "korean": "스물 || 이십",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "30",
+   "korean": "서룬 || 삼십",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "40",
+   "korean": "마른 || 사십",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "50",
+   "korean": "쇤 || 오십",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "60",
+   "korean": "예순 || 육십",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "70",
+   "korean": "일흔 || 칠십",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "80",
+   "korean": "여든 || 팔십",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "90",
+   "korean": "아흔 || 구십",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "100",
+   "korean": "백",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "When you do usually wake up?",
+   "korean": "보통 몇 시에 일어나요?",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "What year?",
+   "korean": "몇년?",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "What month?",
+   "korean": "몇월?",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "What day?",
+   "korean": "며칠?",
+   "boolean": false,
+   "saved": false
+ },
+ {
+   "english": "What day of the week?",
+   "korean": "무슨 유일?",
+   "boolean": false,
+   "saved": false
+ }
+]
